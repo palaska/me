@@ -1,0 +1,17 @@
+#hero-unit {
+  ::selection {
+    background: transparent; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: transparent; /* Gecko Browsers */
+  }
+
+  .r {
+    transition: all 0.3s;
+    cursor: default;
+  }
+  .r1 { font-size: 250px; line-height: 0.5; &:hover { font-size: 270px; } }
+  .r2 { font-size: 68px;  line-height: 1;   &:hover { font-size: 75px; } }
+  .r3 { font-size: 33px;  line-height: 1.2; &:hover { font-size: 45px; } }
+  .r4 { font-size: 26px;  line-height: 1.2; &:hover { font-size: 30px; } }
+}

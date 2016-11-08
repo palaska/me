@@ -1,0 +1,14 @@
+.navbar {
+  background: transparent;
+  border: none;
+  color: $cw !important;
+  a {
+    color: $cw !important;
+    text-decoration: none;
+    transition: all 0.3s;
+    &:hover {
+      color: lighten($cw, 15) !important;
+      text-decoration: none;
+    }
+  }
+}
